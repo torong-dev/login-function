@@ -11,17 +11,16 @@ body {
   @apply mb-16 text-5xl;
 }
 
-.home__id,
-.home__pw {
+.home__input {
   @apply mt-4 mb-4 text-2xl;
 }
 
-.home__id-input,
-.home__pw-input {
+.home__input__id,
+.home__input__pw {
   @apply w-full h-10 pl-2 pr-2 text-black border-0 rounded-md focus:ring-4 focus:ring-inset focus:ring-green-300 outline-none;
 }
 
-.home__pw-input {
+.home__input__pw {
   @apply mb-8;
 }
 
