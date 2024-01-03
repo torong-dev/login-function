@@ -7,25 +7,25 @@ body {
   @apply bg-zinc-900 text-gray-50;
 }
 
-.home-header {
+.home__header {
   @apply mb-16 text-5xl;
 }
 
-.home-id,
-.home-pw {
+.home__id,
+.home__pw {
   @apply mt-4 mb-4 text-2xl;
 }
 
-.home-id-input,
-.home-pw-input {
+.home__id-input,
+.home__pw-input {
   @apply w-full h-10 pl-2 pr-2 text-black border-0 rounded-md focus:ring-4 focus:ring-inset focus:ring-green-300 outline-none;
 }
 
-.home-pw-input {
+.home__pw-input {
   @apply mb-8;
 }
 
-.home-login-btn,
-.home-sign-up-btn {
+.home__login-btn,
+.home__signup-btn {
   @apply w-full rounded-md bg-rose-600 mt-4 py-3 hover:bg-rose-500;
 }
