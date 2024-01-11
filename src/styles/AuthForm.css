@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply w-[75rem] mx-auto mt-52 flex-col items-center;
+  @apply bg-zinc-900 text-gray-50;
+}
+
+.auth-form__header {
+  @apply mb-16 text-5xl;
+}
+
+.auth-form__input {
+  @apply mt-4 mb-4 text-2xl;
+}
+
+.auth-form__input__id,
+.auth-form__input__pw {
+  @apply w-full h-10 pl-2 pr-2 text-black border-0 rounded-md focus:ring-4 focus:ring-inset focus:ring-green-300 outline-none;
+}
+
+.auth-form__input__pw {
+  @apply mb-8;
+}
+
+.auth-form__top-btn,
+.auth-form__bottom-btn {
+  @apply w-full rounded-md bg-rose-600 mt-4 py-3 hover:bg-rose-500;
+}
